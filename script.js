@@ -17,7 +17,7 @@ while (!UsernameIsDefined) {
 let RemoveMatchIsDefined = false;
 
 while (!RemoveMatchIsDefined) {
-  let removeMatch = prompt("How many match you want to remove?");
+  let removeMatch = prompt("Choose a number between 0 to 7 !");
   if (removeMatch >= 1 && removeMatch <= 6 && removeMatch.trim() !== "")
     RemoveMatchIsDefined = true;
   else {
